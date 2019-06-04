@@ -12,6 +12,7 @@ public class MovieServiceImpl implements MovieService {
 	private MovieRepository repo;
 
 	public String getAllMovies() {
+		
 		return repo.getAllMovies();
 	}
 

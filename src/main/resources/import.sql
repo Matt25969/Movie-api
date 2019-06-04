@@ -3,4 +3,3 @@ INSERT INTO MOVIE (id, title, ageRating) VALUES (2, 'Up', 'U')
 INSERT INTO MOVIE (id, title, ageRating) VALUES (3, 'Hop', 'U')
 INSERT INTO MOVIE (id, title, ageRating) VALUES (4, 'Some Film', 'PG')
 
-INSERT INTO SUBMOVIE (id, title, ageRating, subAttribute) VALUES (4, 'Some Film', 'PG', 'Sub')

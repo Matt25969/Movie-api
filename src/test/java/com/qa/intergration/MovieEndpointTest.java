@@ -20,9 +20,11 @@ public class MovieEndpointTest {
 
 	private static final String MOCK_VALUE = "test_value";
 
+	public String ainmal = "pokj";
+
 	@InjectMocks
 	private MovieEndpoint endpoint;
-	//Class under test
+	// Class under test
 
 	@Mock
 	private MovieService service;

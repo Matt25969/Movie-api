@@ -76,7 +76,7 @@ public class MovieDBRepositoryTest {
 	@Test
 	public void testDeleteMovie() {
 		String reply = repo.deleteMovie(1L);
-		Assert.assertEquals(reply, "{\"message\": \"movie sucessfully deleted\"}");
+		Assert.assertEquals(reply, "{\"message\": \"movie successfully deleted\"}");
 	}
 
 }

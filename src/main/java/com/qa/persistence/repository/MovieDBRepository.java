@@ -71,13 +71,14 @@ public class MovieDBRepository implements MovieRepository {
 	@Override
 	@Transactional(REQUIRED)
 	public String deleteMovie(Long id) {
+		
 		Movie movieInDB = util.getObjectForJSON(getAMovie(id), Movie.class);
 
 		if (manager.contains(manager.find(Movie.class, id))) {
 
 			manager.remove(manager.find(Movie.class, id));
 		}
-		return "{\"message\": \"movie sucessfully deleted\"}";
+		return "{\"message\": \"movie successfully deleted\"}";
 	}
 
 	@Override
