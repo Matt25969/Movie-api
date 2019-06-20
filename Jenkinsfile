@@ -16,5 +16,10 @@ pipeline{
                                 sh "mvn package"
                         }
                 }
+		stage('--verify--'){
+                        steps{
+                                sh "mvn verify"
+                        }
+                }
         }
 }
